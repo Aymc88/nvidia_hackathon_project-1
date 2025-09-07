@@ -70,7 +70,6 @@ Markdown
 
 ![AI股票圣手 Pro 界面截图](./images/ai-stock-sage-pro.png)
 
-如果想了解我们项目的详细技术报告和成果分析。
 
 ---
 
@@ -151,7 +150,7 @@ streamlit run main_app.py
 👥 项目成员
 姓名	                 角色	               GitHub
 Wilson Chen	分析代理开发 (Analysis Agent Dev)	@Wii8369
-Amanda Chen	色彩代理开发 (Color Agent Dev)	 @Aymc88
+Amanda Chen	色彩代理开发 (Color Agent Dev)	@Aymc88
 
 Export to Sheets
 

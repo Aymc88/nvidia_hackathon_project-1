@@ -148,7 +148,7 @@ streamlit run main_app.py
 启动后，在浏览器中打开终端显示的本地网址 (通常是 http://localhost:8501) 即可开始使用。
 
 👥 项目成员
-姓名	                 角色	               GitHub
+姓名	                     角色	             GitHub
 Wilson Chen	分析代理开发 (Analysis Agent Dev)	@Wii8369
 Amanda Chen	色彩代理开发 (Color Agent Dev)	@Aymc88
 

@@ -70,7 +70,6 @@ Markdown
 
 ![AI股票圣手 Pro 界面截图](./images/ai-stock-sage-pro.png)
 
-
 ---
 
 ## 🛠️ 技术栈

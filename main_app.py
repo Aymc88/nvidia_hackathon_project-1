@@ -1,5 +1,10 @@
 import streamlit as st
 import os
+
+from dotenv import load_dotenv
+# 这会自动加载 .env 文件中的变量
+load_dotenv()
+
 import sys
 import pandas as pd
 from PIL import Image
@@ -73,8 +78,8 @@ st.caption(f"由父女团队倾力打造，一个融合20年市场经验与新�
 with st.sidebar:
     st.header("🛠️ 配置与工具")
     with st.expander("🔑 配置 API 密钥", expanded=True):
-        nvidia_api_key ="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" 
-        tavily_api_key ="vly-dev-JriFeFv705M2cI04fu7kY2Kyr5svZ4RV"
+        nvidia_api_key =os.getenv("NVIDIA_API_KEY")
+        tavily_api_key =os.getenv("TAVILY_API_KEY")
     keys_provided = nvidia_api_key and tavily_api_key
     if not keys_provided: st.warning("请输入所有必需的 API 密钥以启动智能代理。")
     st.divider()
@@ -161,3 +166,4 @@ if "messages" in st.session_state and st.session_state.messages and st.session_s
             st.session_state.messages.append(assistant_message)
             st.rerun()
 
+cd path/to/wii/project
